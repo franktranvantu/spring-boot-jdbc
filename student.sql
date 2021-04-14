@@ -8,7 +8,3 @@ CREATE TABLE student(
     email VARCHAR(255) NOT NULL,
     PRIMARY KEY (id)
 );
-
-INSERT INTO student(name, email) VALUES ('Frank', 'frank@gmail.com');
-INSERT INTO student(name, email) VALUES ('Henry', 'henry@gmail.com');
-INSERT INTO student(name, email) VALUES ('Bean', 'bean@gmail.com');
