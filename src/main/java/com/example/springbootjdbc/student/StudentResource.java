@@ -14,12 +14,12 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/students")
-public class StudentController {
+public class StudentResource {
 
     private final JdbcTemplate jdbcTemplate;
     private final StudentRowMapper studentRowMapper;
 
-    public StudentController(JdbcTemplate jdbcTemplate, StudentRowMapper studentRowMapper) {
+    public StudentResource(JdbcTemplate jdbcTemplate, StudentRowMapper studentRowMapper) {
         this.jdbcTemplate = jdbcTemplate;
         this.studentRowMapper = studentRowMapper;
     }
